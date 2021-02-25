@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ec715f;
+  height: 70px;
+}
+
+.nav-bar {
+  margin: 0 auto;
+  height: 70px;
+  width: 1024px;
+}
+
+.title-logo {
+  display: inline-block;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-link {
+  line-height: 70px;
+  font-size: 16px;
+  color: #fafafa;
+  display: inline;
+  padding: 0 30px;
+}
+
+/* ---- main 部分 ---- */
+.main-visual {
+  height: 650px;
+  background-image: url(img/mv.png);
+  text-align: center;
+}
+
+.main-text-box {
+  padding: 200px auto;
+  height: 200px;
+}
+
+.main-visual-name {
+  font-size: 64px;
+  color: #fafafa;
+}
+
+.main-visual-text {
+  color: #fafafa;
+  font-size: 20px;
+}
+
+/* ---- portfolio 部分 ---- */
+.portfolio {
+  text-align: center;
+  background-color: #eceff1;
+}
+
+.portfolio-titel {
+  font-size: 32px;
+}
+
+.portfolio-text {
+  font-size: 16px;
+}
+
+.my-icon {
+  border-radius: 0%;
+  width: 250px;
+  height: 250px;
+}
+
+/* ---- feature 部分 ---- */
+.feature {
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 32px;
+}
+
+.feature-text-box {
+  margin: 30px auto;
+}
+
+.icon-text-area {
+  display: flex;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.icon-text-box {
+  width: 320px;
+}
+
+/* ---- profile ---- */
+.profile {
+  background-color: #eceff1;
+}
+
+.profile-title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.profile-text {
+  text-align: center;
+}
+
+.profile-contents-box {
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile-image-box {
+  width: 512px;
+}
+
+.profile-name-skill-box {
+  width: 512px;
+}
+
+/* ---- footer 部分 ---- */
+footer {
+  background-color: #ec715f;
+  height: 60px;
+}
+
+.footer-text {
+  width: 200px;
+  margin: 0 auto;
+  line-height: 60px;
+  font-size: 16px;
+  color: #fafafa;
+}
